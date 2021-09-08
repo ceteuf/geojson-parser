@@ -6,6 +6,8 @@ which return 1 if json is valid geojson, 0 otherwise.
 
 This work try to implement the standard [rfc7946](https://datatracker.ietf.org/doc/html/rfc7946#section-3.1.1).   
 
+Coordinate system reference implement is **EPSG:4326**
+
 ***This is a work in progress.***
 
 
