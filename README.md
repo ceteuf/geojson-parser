@@ -2,7 +2,7 @@ Build on the top of [json-parser](https://github.com/json-parser/json-parser), t
 ```c
 int isGeoJSON(json_value*);
 ```
-which return 1 if succeed, 0 otherwise.
+which return 1 if json is valid geojson, 0 otherwise.
 
 This work try to implement the standard [rfc7946](https://datatracker.ietf.org/doc/html/rfc7946#section-3.1.1).   
 
