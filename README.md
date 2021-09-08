@@ -1,10 +1,14 @@
-version construite sur le package  
-https://github.com/json-parser/json-parser
+Build on the top of 'json-parser', the API is compose of only one function at the moment :
 
-executer depuis 'GEOJSON':
+"isGeoJson"
+
+This work try to implement the standard [rfc7946](https://datatracker.ietf.org/doc/html/rfc7946#section-3.1.1)   
+
+This is a work in progress.
 
 
-gcc cGeojson_b1_v0/cGeojson.c cGeojson_b1_v0/include/json.c -o cGeojson_b1_v0/cGeojson -lm
-
-./cGeojson_b1_v0/cGeojson exemple_data/point_test_1_valid.geojson
-
+# TODO 
+- Right-Hand Rule for polygons (propose a rewind ?)
+- do extended tests
+- bounding box
+- revisit some crappy design
