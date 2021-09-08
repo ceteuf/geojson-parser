@@ -13,4 +13,4 @@ This work try to implement the standard [rfc7946](https://datatracker.ietf.org/d
 - Right-Hand Rule for polygons (propose a rewind ?)
 - do extended tests
 - bounding box
-- revisit some crappy design
+- revisit some rotten designs
