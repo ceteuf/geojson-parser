@@ -1,4 +1,4 @@
-Build on the top of 'json-parser', the API is composed of only one function :
+Build on the top of [json-parser](https://github.com/json-parser/json-parser), the API is composed of only one function :
 ```c
 int isGeoJSON(json_value*);
 ```
